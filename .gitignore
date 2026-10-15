@@ -1,0 +1,84 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.T TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode build outputs
+build/
+DerivedData/
+Archives/
+
+# Xcode user-specific state (keep shared schemes and shared workspace data)
+xcuserdata/
+*.xcuserstate
+*.xcbkptlist
+*.xcschememanagement.plist
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Archives and distributables
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+# NOTE: Do not ignore Package.resolved — keep it committed for reproducible builds
+# (including */xcshareddata/swiftpm/Package.resolved).
+
+# CocoaPods (only ignore generated artifacts; this repo checks in its .xcworkspace)
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
+*.provisionprofile
+secrets.plist
+Secrets.xcconfig
+GoogleService-Info.plist
+
+# Logs and temp files
+*.log
+*.orig
+*~
+*.swp
+*.swo
